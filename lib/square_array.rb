@@ -5,6 +5,6 @@ def square_array(array)
     new_number = array[counter] ** 2
     array.unshift(new_number)
     counter += 1
-    p array
   end
+  p array
 end
